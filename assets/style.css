@@ -1,0 +1,23 @@
+body {
+    background-color: #000000;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    color: white;
+  }
+   
+  h1 {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+  }
