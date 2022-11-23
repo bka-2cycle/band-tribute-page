@@ -2,8 +2,6 @@ body {
     background-color: #000000;
   }
 
-
-
   p {
     max-width: 1120px;
     margin-top: 0px;
@@ -17,6 +15,7 @@ body {
     font-family: 'Comfortaa', cursive;
     color: white;
     text-align: center;
+    max-width: 1233px;
   }
 
   h2 {
@@ -26,19 +25,24 @@ body {
     text-size-adjust: 20px;
     margin-top: 0px;
     margin-bottom: -10px;
+    max-width: 1233px;
   }
 
 h3 {
   font-family: 'Comfortaa', cursive;
     color: red;
     text-align: center;
+    max-width: 1233px;
 }
 
-
+.pictureContainer {
+  max-width: 1233px;
+}
 
 .slides {
   text-align: center;
   margin-bottom: -15px;
+  max-width: 1233px;
 }
 
 button {
@@ -56,12 +60,6 @@ button:hover {
   color: red;
   transition: color 0.9s;
 }
-
-/*img {
-  display: block;
-  width: 1352px;
-  margin: auto;
-}*/
 
 img {
   max-width: 100%;
@@ -83,12 +81,15 @@ li {
   font-size: 70%;
   color: white;
   font-family: arial;
-  
 }
 
 .head-shot {
   max-width: 200px;
   height: auto;
+}
+
+table {
+  max-width: 1233px;
 }
 
 .table-text {
@@ -108,20 +109,7 @@ td {
   text-align: center;
 }
 
-/*
-#quotables {
-  background-image: url(".images/bkrd/Quote-Bkrd.jpg");
-  width: 1220px;
-  height: 1220px;
-  background-repeat: no-repeat;
-}*/
-
-
-
 .footer {
-  /*position: fixed;
-  left: 0;
-  bottom: 0;*/
   width: 100%;
   height: 180px;
   background-color: rgb(185, 18, 18);
